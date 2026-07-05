@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://visualassetoptimizer.com/sitemap.xml
+Sitemap: https://platformfit.techbasics.online/sitemap.xml
