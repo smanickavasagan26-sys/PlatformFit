@@ -1710,3 +1710,42 @@ body {
   .other-conv-header { padding: 20px 20px 0; }
   .other-conv-title  { font-size: 1.2rem; }
 }
+.tiny-startups-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 22px 14px 18px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #3525E6, #D81FE0, #22B8F0) border-box;
+  border: 2px solid transparent;
+  color: #0E0B1F;
+}
+
+.tiny-startups-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.tiny-startups-label {
+  font-family: monospace;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #6A6585;
+}
+
+.tiny-startups-title {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+.tiny-startups-url {
+  font-size: 11px;
+  color: #6A6585;
+  margin-top: 4px;
+}
