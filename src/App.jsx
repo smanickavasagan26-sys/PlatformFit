@@ -240,7 +240,7 @@ export default function App() {
             </div>
           </div>
           <a
-            href="https://techbasic.online"
+            href="https://techbasics.online"
             target="_blank"
             rel="noopener noreferrer"
             className="visit-blog-btn"
@@ -482,7 +482,7 @@ export default function App() {
           </div>
           <span className="footer-copy">© {new Date().getFullYear()} PlatformFit · Images never leave your device</span>
           <div className="footer-right">
-            <a href="https://techbasic.online" target="_blank" rel="noopener noreferrer" className="footer-blog-link">
+            <a href="https://techbasics.online" target="_blank" rel="noopener noreferrer" className="footer-blog-link">
               Visit TechBasic Blog ↗
             </a>
           </div>
