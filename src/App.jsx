@@ -485,28 +485,25 @@ export default function App() {
       <a href="https://techbasics.online" target="_blank" rel="noopener noreferrer" className="footer-blog-link">
         Visit TechBasic Blog ↗
       </a>
-      {/* tinystartups · Launched on Tiny Startups */}
-      <a href="https://www.tinystartups.com/startup/platformfit" target="_blank" rel="noopener noreferrer" className="tiny-startups-link">
-        <svg width="56" height="56" viewBox="0 0 100 100">
-          <defs>
-            <linearGradient id="tsg" x1=".1" y1="0" x2=".9" y2="1">
-              <stop offset="0%" stopColor="#3525E6"/>
-              <stop offset="55%" stopColor="#D81FE0"/>
-              <stop offset="100%" stopColor="#22B8F0"/>
-            </linearGradient>
-          </defs>
-          <path d="M50 6C52 32 68 48 94 50C68 52 52 68 50 94C48 68 32 52 6 50C32 48 48 32 50 6Z" fill="url(#tsg)"/>
+      {/* tinystartups · Launched on Tiny Startups stamp (light) */}
+      <a href="https://www.tinystartups.com/startup/platformfit" target="_blank" rel="noopener noreferrer"
+         style="display:inline-flex;flex-direction:column;align-items:center;gap:8px;padding:22px 28px 20px;border-radius:18px;text-decoration:none;font-family:'Inter',system-ui,sans-serif;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(135deg,#3525E6,#D81FE0,#22B8F0) border-box;border:2.5px solid transparent;width:220px;text-align:center;color:#0E0B1F">
+        <span style="font-family:monospace;font-size:9px;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:#6A6585">Launched on</span>
+        <svg width="76" height="76" viewBox="0 0 100 100">
+          <defs><linearGradient id="tsg2" x1=".1" y1="0" x2=".9" y2="1">
+            <stop offset="0%" stopColor="#3525E6"/><stop offset="55%" stopColor="#D81FE0"/><stop offset="100%" stopColor="#22B8F0"/>
+          </linearGradient></defs>
+          <path d="M50 6C52 32 68 48 94 50C68 52 52 68 50 94C48 68 32 52 6 50C32 48 48 32 50 6Z" fill="url(#tsg2)"/>
         </svg>
-        <span className="tiny-startups-text">
-          <span className="tiny-startups-label">Launched on</span>
-          <span className="tiny-startups-title">Tiny Startups</span>
-          <span className="tiny-startups-url">tinystartups.com</span>
+        <span style="font-size:22px;font-weight:800;letter-spacing:-0.025em;color:#0E0B1F;line-height:1.1">PlatformFit</span>
+        <span style="font-family:monospace;font-size:10px;color:#6A6585">July 6, 2026</span>
+        <span style="font-size:11px;font-weight:600;color:#0E0B1F;margin-top:10px;padding-top:12px;border-top:1px solid #ECEAF3;width:100%;display:flex;align-items:center;justify-content:center;gap:6px">
+          <svg width="14" height="14" viewBox="0 0 100 100"><defs><linearGradient id="tsgm" x1=".1" y1="0" x2=".9" y2="1"><stop offset="0%" stopColor="#3525E6"/><stop offset="55%" stopColor="#D81FE0"/><stop offset="100%" stopColor="#22B8F0"/></linearGradient></defs><path d="M50 6C52 32 68 48 94 50C68 52 52 68 50 94C48 68 32 52 6 50C32 48 48 32 50 6Z" fill="url(#tsgm)"/></svg> tinystartups
         </span>
       </a>
     </div>
   </div>
 </footer>
-
       {/* ── EXPORT MODAL ── */}
       {showModal && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
