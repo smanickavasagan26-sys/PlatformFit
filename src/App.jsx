@@ -485,32 +485,6 @@ export default function App() {
             <a href="https://techbasics.online" target="_blank" rel="noopener noreferrer" className="footer-blog-link">
               Visit TechBasic Blog ↗
             </a>
-            {/* tinystartups · Launched on Tiny Startups stamp (compact) */}
-            <a href="https://www.tinystartups.com/startup/platformfit" target="_blank" rel="noopener noreferrer"
-               style={{
-                 display: 'inline-flex',
-                 alignItems: 'center',
-                 gap: '6px',
-                 padding: '6px 12px 6px 8px',
-                 borderRadius: '10px',
-                 textDecoration: 'none',
-                 fontFamily: "'Inter', system-ui, sans-serif",
-                 background: 'linear-gradient(#fff,#fff) padding-box, linear-gradient(135deg,#3525E6,#D81FE0,#22B8F0) border-box',
-                 border: '1.5px solid transparent',
-                 color: '#0E0B1F',
-                 whiteSpace: 'nowrap',
-               }}>
-              <svg width="18" height="18" viewBox="0 0 100 100" style={{ flexShrink: 0 }}>
-                <defs><linearGradient id="tsg2" x1=".1" y1="0" x2=".9" y2="1">
-                  <stop offset="0%" stopColor="#3525E6"/><stop offset="55%" stopColor="#D81FE0"/><stop offset="100%" stopColor="#22B8F0"/>
-                </linearGradient></defs>
-                <path d="M50 6C52 32 68 48 94 50C68 52 52 68 50 94C48 68 32 52 6 50C32 48 48 32 50 6Z" fill="url(#tsg2)"/>
-              </svg>
-              <span style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.2 }}>
-                <span style={{ fontFamily: 'monospace', fontSize: '8px', fontWeight: '600', letterSpacing: '0.18em', textTransform: 'uppercase', color: '#6A6585' }}>Launched on</span>
-                <span style={{ fontSize: '12px', fontWeight: '700', color: '#0E0B1F' }}>tinystartups</span>
-              </span>
-            </a>
           </div>
         </div>
       </footer>
