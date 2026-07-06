@@ -474,35 +474,38 @@ export default function App() {
       </div>{/* end page-wrapper */}
 
       {/* ── FOOTER ── */}
-      <footer className="footer">
-        <div className="footer-inner">
-          <div className="footer-brand">
-            <div className="footer-logo-mark">P</div>
-            <span className="footer-name">PlatformFit</span>
-          </div>
-          <span className="footer-copy">© {new Date().getFullYear()} PlatformFit · Images never leave your device</span>
-          <div className="footer-right">
-            <a href="https://techbasics.online" target="_blank" rel="noopener noreferrer" className="footer-blog-link">
-              Visit TechBasic Blog ↗
-            </a>
-            <!-- tinystartups · Launched on Tiny Startups -->
-<a href="https://www.tinystartups.com/startup/platformfit" target="_blank" rel="noopener"
-   style="display:inline-flex;align-items:center;gap:14px;padding:14px 22px 14px 18px;border-radius:14px;text-decoration:none;font-family:'Inter',system-ui,sans-serif;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(90deg,#3525E6,#D81FE0,#22B8F0) border-box;border:2px solid transparent;color:#0E0B1F">
-  <svg width="56" height="56" viewBox="0 0 100 100">
-    <defs><linearGradient id="tsg" x1=".1" y1="0" x2=".9" y2="1">
-      <stop offset="0%" stop-color="#3525E6"/><stop offset="55%" stop-color="#D81FE0"/><stop offset="100%" stop-color="#22B8F0"/>
-    </linearGradient></defs>
-    <path d="M50 6C52 32 68 48 94 50C68 52 52 68 50 94C48 68 32 52 6 50C32 48 48 32 50 6Z" fill="url(#tsg)"/>
-  </svg>
-  <span style="display:flex;flex-direction:column;line-height:1.15">
-    <span style="font-family:monospace;font-size:9px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#6A6585">Launched on</span>
-    <span style="font-size:22px;font-weight:800;letter-spacing:-0.025em">Tiny Startups</span>
-    <span style="font-size:11px;color:#6A6585;margin-top:4px">tinystartups.com</span>
-  </span>
-</a>
-          </div>
-        </div>
-      </footer>
+     <footer className="footer">
+  <div className="footer-inner">
+    <div className="footer-brand">
+      <div className="footer-logo-mark">P</div>
+      <span className="footer-name">PlatformFit</span>
+    </div>
+    <span className="footer-copy">© {new Date().getFullYear()} PlatformFit · Images never leave your device</span>
+    <div className="footer-right">
+      <a href="https://techbasics.online" target="_blank" rel="noopener noreferrer" className="footer-blog-link">
+        Visit TechBasic Blog ↗
+      </a>
+      {/* tinystartups · Launched on Tiny Startups */}
+      <a href="https://www.tinystartups.com/startup/platformfit" target="_blank" rel="noopener noreferrer" className="tiny-startups-link">
+        <svg width="56" height="56" viewBox="0 0 100 100">
+          <defs>
+            <linearGradient id="tsg" x1=".1" y1="0" x2=".9" y2="1">
+              <stop offset="0%" stopColor="#3525E6"/>
+              <stop offset="55%" stopColor="#D81FE0"/>
+              <stop offset="100%" stopColor="#22B8F0"/>
+            </linearGradient>
+          </defs>
+          <path d="M50 6C52 32 68 48 94 50C68 52 52 68 50 94C48 68 32 52 6 50C32 48 48 32 50 6Z" fill="url(#tsg)"/>
+        </svg>
+        <span className="tiny-startups-text">
+          <span className="tiny-startups-label">Launched on</span>
+          <span className="tiny-startups-title">Tiny Startups</span>
+          <span className="tiny-startups-url">tinystartups.com</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</footer>
 
       {/* ── EXPORT MODAL ── */}
       {showModal && (
